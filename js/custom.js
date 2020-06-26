@@ -1,3 +1,4 @@
+document.addEventListener('contextmenu', event => event.preventDefault());
 
  var typed = new Typed('.typing2', {      
   // Waits 1000ms after typing "First"
